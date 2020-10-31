@@ -21,7 +21,6 @@ public class SherlockAndValidString {
                 charCountMap.put(c, 1);
             }
         }
-
         Set<Integer> countSet = new HashSet<>(charCountMap.values());
         if(countSet.size()>2){
             return "NO";
@@ -55,7 +54,6 @@ public class SherlockAndValidString {
                 return "YES";
             }
         }
-
     }
 
     private static final Scanner scanner = new Scanner(System.in);
